@@ -46,5 +46,8 @@ public List<Livre> rechercherparlibelleetauteur (String libelle,String auteur)
 {
 return repository.findByLibelleAndAuteur(libelle, auteur);
 }
-
+public int affichernblivre ()
+{
+return repository.affichernblivre();	
+}
 }

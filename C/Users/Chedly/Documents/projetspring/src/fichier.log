@@ -1,0 +1,140 @@
+2022-04-27 14:18:31.411 INFO     [http-nio-8081-exec-1]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 14:18:31.411 INFO     [http-nio-8081-exec-1]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 14:29:14.270 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 14:29:14.270 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 14:35:11.128 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id NULL
+2022-04-27 14:35:11.128 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id NULL
+2022-04-27 14:51:41.525 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 14:51:41.525 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 14:57:53.914 ERROR    [http-nio-8081-exec-5]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 14:57:53.914 ERROR    [http-nio-8081-exec-5]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 14:58:49.820 ERROR    [http-nio-8081-exec-6]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 14:58:49.820 ERROR    [http-nio-8081-exec-6]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 14:59:18.021 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 14:59:18.021 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 14:59:33.853 ERROR    [http-nio-8081-exec-8]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 14:59:33.853 ERROR    [http-nio-8081-exec-8]:application.Controller.LivreController - livre id null impossible a supprimer
+2022-04-27 15:00:11.384 ERROR    [http-nio-8081-exec-9]:application.Controller.LivreController - livre id null introuvable a supprimer
+2022-04-27 15:00:11.384 ERROR    [http-nio-8081-exec-9]:application.Controller.LivreController - livre id null introuvable a supprimer
+2022-04-27 16:50:07.682 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 16:50:07.682 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 16:52:20.688 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:52:20.688 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:52:48.870 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:52:48.870 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:54:39.325 ERROR    [http-nio-8081-exec-1]:application.Controller.AdherentController - introuvable
+2022-04-27 16:54:39.325 ERROR    [http-nio-8081-exec-1]:application.Controller.AdherentController - introuvable
+2022-04-27 16:54:48.461 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:54:48.461 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:54:58.381 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:54:58.381 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 16:55:26.001 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - introuvable
+2022-04-27 16:55:26.001 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - introuvable
+2022-04-27 16:55:31.311 ERROR    [http-nio-8081-exec-7]:application.Controller.AdherentController - introuvable
+2022-04-27 16:55:31.311 ERROR    [http-nio-8081-exec-7]:application.Controller.AdherentController - introuvable
+2022-04-27 16:55:53.658 INFO     [http-nio-8081-exec-8]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 16:55:53.658 INFO     [http-nio-8081-exec-8]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 16:58:35.768 INFO     [http-nio-8081-exec-3]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 16:58:35.768 INFO     [http-nio-8081-exec-3]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:00:24.234 INFO     [http-nio-8081-exec-6]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:00:24.234 INFO     [http-nio-8081-exec-6]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:00:34.521 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:00:34.521 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:14:44.538 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:14:44.538 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:14:52.275 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:14:52.275 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:17:27.867 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:17:27.867 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:18:26.333 INFO     [http-nio-8081-exec-6]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:18:26.333 INFO     [http-nio-8081-exec-6]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:19:22.005 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:19:22.005 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:19:54.165 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:19:54.165 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:20:15.498 INFO     [http-nio-8081-exec-3]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:20:15.498 INFO     [http-nio-8081-exec-3]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:25:35.773 ERROR    [http-nio-8081-exec-8]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 17:25:35.773 ERROR    [http-nio-8081-exec-8]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 17:27:11.806 INFO     [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 17:27:11.806 INFO     [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 17:28:20.529 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent supprimer avec succès
+2022-04-27 17:28:20.529 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent supprimer avec succès
+2022-04-27 17:29:34.807 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre ajoute avec succes
+2022-04-27 17:29:34.807 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre ajoute avec succes
+2022-04-27 17:32:59.701 INFO     [http-nio-8081-exec-1]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:32:59.701 INFO     [http-nio-8081-exec-1]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 17:55:31.448 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:55:31.448 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 17:55:31.474 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 17:55:31.474 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 17:55:31.517 INFO     [http-nio-8081-exec-1]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 17:55:31.517 INFO     [http-nio-8081-exec-1]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 18:04:12.725 INFO     [http-nio-8081-exec-4]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:04:12.725 INFO     [http-nio-8081-exec-4]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:05:11.485 ERROR    [http-nio-8081-exec-3]:application.Controller.LivreController - livre null impossible a ajouter
+2022-04-27 18:05:11.485 ERROR    [http-nio-8081-exec-3]:application.Controller.LivreController - livre null impossible a ajouter
+2022-04-27 18:05:54.042 ERROR    [http-nio-8081-exec-8]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:05:54.042 ERROR    [http-nio-8081-exec-8]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:06:16.101 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:06:16.101 INFO     [http-nio-8081-exec-7]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:07:11.859 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:07:11.859 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:07:40.263 INFO     [http-nio-8081-exec-9]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:07:40.263 INFO     [http-nio-8081-exec-9]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:08:56.207 INFO     [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:08:56.207 INFO     [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:09:11.186 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:09:11.186 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:09:28.448 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 18:09:28.448 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 18:09:43.802 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 18:09:43.802 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 18:19:10.751 ERROR    [http-nio-8081-exec-1]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:19:10.751 ERROR    [http-nio-8081-exec-1]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:19:29.446 ERROR    [http-nio-8081-exec-10]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:19:29.446 ERROR    [http-nio-8081-exec-10]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:19:44.056 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:19:44.056 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:20:08.270 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:20:08.270 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:21:06.641 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:21:06.641 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:21:51.567 ERROR    [http-nio-8081-exec-3]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 18:21:51.567 ERROR    [http-nio-8081-exec-3]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 18:24:13.505 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:24:13.505 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:24:32.101 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:24:32.101 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:25:27.185 ERROR    [http-nio-8081-exec-6]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:25:27.185 ERROR    [http-nio-8081-exec-6]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:25:57.526 ERROR    [http-nio-8081-exec-4]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:25:57.526 ERROR    [http-nio-8081-exec-4]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:26:15.841 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:26:15.841 INFO     [http-nio-8081-exec-8]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:28:23.542 ERROR    [http-nio-8081-exec-1]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:28:23.542 ERROR    [http-nio-8081-exec-1]:application.Controller.LivreController - livre id introuvable a supprimer
+2022-04-27 18:28:49.564 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:28:49.564 INFO     [http-nio-8081-exec-10]:application.Controller.LivreController - livre supprime avec succes
+2022-04-27 18:29:35.731 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:29:35.731 INFO     [http-nio-8081-exec-2]:application.Controller.LivreController - livre ajoute avec success
+2022-04-27 18:30:22.143 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:30:22.143 INFO     [http-nio-8081-exec-6]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:30:42.656 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:30:42.656 INFO     [http-nio-8081-exec-4]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:30:51.017 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:30:51.017 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - adherent ajouté avec succès
+2022-04-27 18:34:57.365 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:34:57.365 INFO     [http-nio-8081-exec-5]:application.Controller.AdherentController - adherent supprimé avec succès
+2022-04-27 18:35:07.412 ERROR    [http-nio-8081-exec-9]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:35:07.412 ERROR    [http-nio-8081-exec-9]:application.Controller.AdherentController - adherent id introuvable
+2022-04-27 18:36:00.557 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id NULL
+2022-04-27 18:36:00.557 ERROR    [http-nio-8081-exec-2]:application.Controller.AdherentController - adherent id NULL
+2022-04-27 18:36:26.064 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 18:36:26.064 ERROR    [http-nio-8081-exec-6]:application.Controller.AdherentController - impossible adherent NULL
+2022-04-27 18:41:19.910 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 18:41:19.910 INFO     [http-nio-8081-exec-3]:application.Controller.AdherentController - afficher tous les adherents
+2022-04-27 18:41:24.948 INFO     [http-nio-8081-exec-8]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 18:41:24.948 INFO     [http-nio-8081-exec-8]:application.Controller.AdherentController -  rechercher adherent par nom 
+2022-04-27 18:41:53.065 INFO     [http-nio-8081-exec-1]:application.Controller.LivreController - afficher tous les livres
+2022-04-27 18:41:53.065 INFO     [http-nio-8081-exec-1]:application.Controller.LivreController - afficher tous les livres

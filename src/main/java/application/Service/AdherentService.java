@@ -12,7 +12,6 @@ import application.repository.*;
 public class AdherentService {
 @Autowired
 AdherentRepository repository;
-
 public List<Adherent> affichertout () 
 {
 return repository.findAll();
@@ -32,6 +31,7 @@ return repository.findByNom(nom);
 }
 public Adherent rechercherparid ( Long id)
 {
+
 return repository.findById(id).get();	
 }
 public List<Adherent> rechercherparprenom ( String prenom)
@@ -46,5 +46,8 @@ public List<Adherent> rechercherparnometprenom ( String nom,String prenom)
 {
 return repository.findByNomAndPrenom(nom, prenom);	
 }
-
+public int affichernbadherent() 
+{
+return repository.affichernbadherent();	
+}
 }

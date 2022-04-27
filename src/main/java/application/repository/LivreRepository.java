@@ -18,4 +18,6 @@ public List <Livre> findByLibelleAndAuteur (String Libelle,String Auteur);
 @Transactional
 	@Query ("delete from Livre l where l.numIsbn=?1")
 public void supprimer (long id);
+@Query ("select count(l) from Livre l")
+public int affichernblivre();
 }

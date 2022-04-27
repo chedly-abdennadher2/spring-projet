@@ -6,6 +6,8 @@ import net.minidev.json.JSONObject;
 
 import java.util.List;
 import java.util.Optional;
+
+import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.CrossOrigin;
 import org.springframework.web.bind.annotation.GetMapping;
@@ -20,6 +22,7 @@ import org.springframework.web.bind.annotation.RestController;
 public class LivreController {
 @Autowired
 LivreService service;
+public static final Logger log=Logger.getLogger(LivreController.class);
 
 public LivreController(LivreService service) {
 	super();
@@ -29,30 +32,58 @@ public LivreController(LivreService service) {
 @PostMapping("/ajouterlivre")
 public void ajouter(@RequestBody Livre l)
 {
-service.ajouter(l);	
+if (l.getNumIsbn()==0)
+{
+log.error("livre null impossible a ajouter");	
+}
+else 
+{service.ajouter(l);
+log.info("livre ajoute avec success");
+}
 }
 @CrossOrigin(origins="http://localhost:4200")
 @PostMapping("/supprimerlivre")
 
 public void supprimer (@RequestBody JSONObject data)
-{
-
+{ 
 	String id=(String)(data.get("id"));
-	System.out.println("id"+id);
-
-	service.supprimer(Long.parseLong(id));
+	try {
+	Livre l=service.rechercherparid(Long.parseLong(id));
+	if (l==null)
+	{
+		System.out.println("livre introuvable");		
+	}
+	else 
+	{service.supprimer(Long.parseLong(id));
+	log.info("livre supprime avec succes");}
+	}
+	catch (java.lang.NumberFormatException e)
+	{
+	log.error("livre id null impossible a supprimer");		
+	}
+catch (java.util.NoSuchElementException e)
+{
+	log.error("livre id introuvable a supprimer");		
+	
+	}
 }
 @GetMapping("/affichertoutlivre")
 @CrossOrigin(origins="http://localhost:4200")
 public List<Livre> affichertout()
 {
+log.info("afficher tous les livres");
 return service.affichertout();	
 }
 @GetMapping("/afficherlivreparid/{id}")
 @CrossOrigin(origins="http://localhost:4200")
 public Livre rechercherparid(@PathVariable String id)
 {
-return service.rechercherparid(Long.parseLong(id));
+try 
+{return service.rechercherparid(Long.parseLong(id));}
+catch (java.util.NoSuchElementException e)
+{
+return null;	
+}
 }
 @GetMapping("/afficherlivreparLibelle/{Libelle}")
 @CrossOrigin(origins="http://localhost:4200")
@@ -78,5 +109,11 @@ public List<Livre> rechercherparlibelleetauteur(@PathVariable String libelle,@Pa
 {
 return service.rechercherparlibelleetauteur(libelle, auteur);
 	
+}
+@GetMapping("/affichernblivre")
+@CrossOrigin(origins="http://localhost:4200")
+public int affichernblivre()
+{
+return service.affichernblivre();	
 }
 }

@@ -10,8 +10,6 @@ import org.springframework.boot.builder.SpringApplicationBuilder;
 import org.springframework.boot.web.servlet.support.SpringBootServletInitializer;
 import org.springframework.context.annotation.ComponentScan;
 
-import application.Controller.AdherentController;
-
 @SpringBootApplication
 @ComponentScan(basePackages="application")
 
@@ -24,6 +22,7 @@ public class ProjetspringApplication  extends SpringBootServletInitializer{
 
 	public static void main(String[] args) {
 		SpringApplication.run(ProjetspringApplication.class, args);
+		
 	}
 
 }
